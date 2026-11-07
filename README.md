@@ -161,3 +161,7 @@ figure scripts belong to the larger private project and are not included. Code p
 (the `tectonic` and `lem` topography options, and loading a named production checkpoint into the
 cascade) raise `ImportError` here. Some docstrings and comments refer to design notes and issue numbers
 from that project.
+
+## License
+
+MIT — see [LICENSE](LICENSE). If you use this code, please cite it (see [CITATION.cff](CITATION.cff)).

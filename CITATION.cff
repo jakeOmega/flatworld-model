@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "flatworld: an anelastic climate model of a fictional flat world"
+authors:
+  - family-names: Woods
+    given-names: Jake
+repository-code: "https://github.com/jakeOmega/flatworld-model"
+license: MIT
+date-released: "2026-11-07"
