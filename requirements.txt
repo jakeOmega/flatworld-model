@@ -1,0 +1,19 @@
+# Pinned to the versions the source project's regression gate runs against.
+# Verified here on Python 3.12 (the source project runs Python 3.11).
+
+# Required to run the model
+numpy==2.4.6
+scipy==1.17.1
+
+# Test suite
+pytest==9.1.0
+sympy==1.14.0      # symbolic-vs-numeric cross-checks in a few tests
+# pytest-xdist     # optional: parallel test runs (pytest -n auto)
+
+# Optional
+matplotlib==3.11.0 # only imported lazily by a few plotting helpers
+numba==0.65.1      # opt-in column-parallel CPU kernels (off by default); the
+llvmlite==0.47.0   # equivalence tests skip without it. Bump numba/llvmlite/numpy together.
+
+# Optional GPU backend (NVIDIA, CUDA >= 13). Not needed for the CPU path or the tests.
+# cupy-cuda13x[ctk]==14.1.1

@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Model outputs: cascade results, checkpoints, run directories
+*.npz
+!flatworld/tests/fixtures/*.npz
+runs/
+*_ckpt/
+*.log
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
